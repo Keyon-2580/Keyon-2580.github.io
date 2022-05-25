@@ -15,6 +15,31 @@
     </entry>
     
     
+    
+    <entry>
+      <title>5-23-高尔夫砍树</title>
+      <link href="/2022/05/25/2022-5-23-gao-er-fu-kan-shu/"/>
+      <url>/2022/05/25/2022-5-23-gao-er-fu-kan-shu/</url>
+      
+        <content type="html"><![CDATA[<h3 id="queue使用"><a href="#queue使用" class="headerlink" title="queue使用"></a>queue使用</h3><ul><li><p>add 和 offer使用，add在队列满的时候抛出异常，offer则会返回false用于判断，不回产生异常</p></li><li><p>poll和remove，同样remove会抛出异常，poll返回null</p></li><li><p>peek和element用于返回队列头，其中elemen在队列为空时抛出异常，peek则返回null</p></li><li><p><em>优先使用add，peek，poll</em></p></li></ul><h3 id="BFS模版"><a href="#BFS模版" class="headerlink" title="BFS模版"></a>BFS模版</h3><ol><li><p>不需要知道哪一层</p><pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token keyword">while</span> queue 不空：cur <span class="token operator">=</span> queue<span class="token punctuation">.</span><span class="token function">pop</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token keyword">if</span> cur 有效且未被访问过：    进行处理<span class="token keyword">for</span> 节点 in cur 的所有相邻节点：    <span class="token keyword">if</span> 该节点有效：        queue<span class="token punctuation">.</span><span class="token function">push</span><span class="token punctuation">(</span>该节点<span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre></li><li><p>需要知道哪一层</p><pre class="line-numbers language-java" data-language="java"><code class="language-java">level <span class="token operator">=</span> <span class="token number">0</span><span class="token keyword">while</span> queue 不空：    size <span class="token operator">=</span> queue<span class="token punctuation">.</span><span class="token function">size</span><span class="token punctuation">(</span><span class="token punctuation">)</span>    <span class="token keyword">while</span> <span class="token punctuation">(</span>size <span class="token operator">--</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>        cur <span class="token operator">=</span> queue<span class="token punctuation">.</span><span class="token function">pop</span><span class="token punctuation">(</span><span class="token punctuation">)</span>        <span class="token keyword">if</span> cur 有效且未被访问过：            进行处理        <span class="token keyword">for</span> 节点 in cur的所有相邻节点：            <span class="token keyword">if</span> 该节点有效：                queue<span class="token punctuation">.</span><span class="token function">push</span><span class="token punctuation">(</span>该节点<span class="token punctuation">)</span>    <span class="token punctuation">}</span>    level <span class="token operator">++</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre></li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> Leetcode </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> leetcode </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
   
   
 </search>
