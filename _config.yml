@@ -107,7 +107,7 @@ deploy:
   repository:
     github: git@github.com:Keyon-2580/Keyon-2580.github.io.git
     coding: git@e.coding.net:keyon2580/keyonblog/KeyonBlog.git
-  branch: main
+  branch: master
   
 # 上面菜单栏
 menu:
