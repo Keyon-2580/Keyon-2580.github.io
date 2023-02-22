@@ -6,7 +6,7 @@
   <link href="http://keyon-2580.github.io/atom.xml" rel="self"/>
   
   <link href="http://keyon-2580.github.io/"/>
-  <updated>2022-05-25T10:42:27.039Z</updated>
+  <updated>2023-02-21T15:44:36.528Z</updated>
   <id>http://keyon-2580.github.io/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>KMP模版</title>
+    <link href="http://keyon-2580.github.io/2023/02/21/kmp/"/>
+    <id>http://keyon-2580.github.io/2023/02/21/kmp/</id>
+    <published>2023-02-21T01:25:00.000Z</published>
+    <updated>2023-02-21T15:44:36.528Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;pre class=&quot;line-numbers language-java&quot; data-language=&quot;java&quot;&gt;&lt;code class=&quot;language-java&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;int&lt;/span&gt; &lt;span</summary>
+        
+      
+    
+    
+    
+    <category term="Leetcode" scheme="http://keyon-2580.github.io/categories/Leetcode/"/>
+    
+    
+    <category term="leetcode" scheme="http://keyon-2580.github.io/tags/leetcode/"/>
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
