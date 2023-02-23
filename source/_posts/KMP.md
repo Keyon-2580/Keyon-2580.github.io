@@ -1,11 +1,11 @@
 ---
 title: KMP模版
-date: 2023-02-21 09:25:00
+date: {{date}}
 author: Keyon
-img: https://pic4.zhimg.com/v2-666eb28ba8e686a26ae7295cd6a2a47a\_r.jpg
+img: /images/2.jpg
 top: false
 cover: true
-coverImg: https://pic4.zhimg.com/v2-666eb28ba8e686a26ae7295cd6a2a47a\_r.jpg
+coverImg: /images/2.jpg
 password: 8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92
 toc: true
 mathjax: false
